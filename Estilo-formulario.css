@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+fieldset {
+    border: #1e82db;
+}
+ 
+body, input, select, textarea, button,password {
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+        
+ 
+.grupo:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ 
+.campo {
+    margin-bottom: 1em;
+}
+ 
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+ 
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+ 
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo input[type="password"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+ 
+.campo select option {
+    padding-right: 1em;
+}
+ 
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+ 
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+ 
+.botao {
+    font-size: 1.5em;
+    background: #F90;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+ 
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+ 
+.botao, select, label.checkbox {
+    cursor: pointer;
+}

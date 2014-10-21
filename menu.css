@@ -1,0 +1,60 @@
+#accordion {
+    margin:0;
+    padding:0;    
+    list-style:none;
+}
+
+#accordion li {
+    width:200px;
+}
+
+#accordion li a {
+    display: block;
+    width: 180px;
+    height: 43px;    
+    outline:none;
+    color: white;
+}
+
+/* Using CSS Sprite for menu item */
+#accordion li a.aluno {
+    background:url(images/aluno_con.png) no-repeat 0 0;    
+}
+
+#accordion li a.disciplina {
+    background:url(images/disciplina_icon.png) no-repeat 0 0;    
+}
+
+#accordion li a.avisos {
+    background: url(images/avisos_menu.png) no-repeat 0 0;    
+}
+
+
+/* Second Level UL List*/
+#accordion ul {
+    background: repeat-y 0 0;
+    width:268px;
+    margin:0;
+    padding:0;
+    display:none;    
+}
+
+#accordion ul li {
+    height:30px;
+}
+
+/* styling of submenu item */
+#accordion ul li a {
+    width:240px;
+    height:25px;
+    margin-left:15px;
+    padding-top:5px;
+    text-indent:0;
+    color:#ccc;
+    text-decoration:none;
+}
+/* remove border bottom of the last item */
+#accordion ul li a.last {
+    border-bottom: none;
+}    
+

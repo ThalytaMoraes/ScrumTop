@@ -1,0 +1,34 @@
+#geral{
+    width: 100%;
+    height: 100%;
+}
+#video {
+    width: 740px;
+    height: 765px;
+    float:left;
+    background-image:  url(images/menu/ScrumTop_logo-001.fw.png);
+    background-repeat: no-repeat;
+    background-position:  top right;
+}
+#login{
+    margin-left: 929px;
+    height: 712px;
+    width: 569px;
+    background: #f6f6f6;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+}
+#formu{
+    border:none;
+    width: 405px;
+    margin: 0px auto;
+    background: #f6f6f6;
+
+}
+
+input[type=submit]{
+        background:#006699;
+        color:#ffffff;
+}
+ 

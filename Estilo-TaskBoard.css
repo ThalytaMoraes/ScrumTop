@@ -1,0 +1,123 @@
+element.style {
+}
+.gutter {
+margin-left: 14px;;
+}
+.sidebar-boards-list, .board-list {
+margin-bottom: 16px;
+}
+ol, ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+Pseudo ::after element
+.clearfix:after {
+clear: both;
+content: ".";
+display: block;
+height: 0;
+overflow: hidden;
+visibility: hidden;
+}
+Inherited from body.page-index.chrome.chrome-37.windows.extra-large-window.body-webkit-scrollbars.tabbed-page
+html, body, input, select, textarea, button {
+font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+line-height: 18px;
+color: #393939;
+}
+Inherited from html
+html {
+font-size: 100%;
+-webkit-text-size-adjust: 100%;
+}
+html, body, input, select, textarea, button {
+font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+line-height: 18px;
+color: #393939;
+}
+
+element.style {
+}
+.board-list li {
+float: left;
+width: 25%;
+}
+.sidebar-boards-list li, .board-list li {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+position: relative;
+}
+user agent stylesheetli {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+Inherited from ul.board-list.gutter.js-board-list.clearfix
+ol, ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+.board-list a {
+background-color: #999;
+color: #f6f6f6;
+height: 90px;
+margin: 0 16px 16px 0;
+font-size: 16px;
+line-height: 22px;
+}
+.sidebar-boards-list a, .board-list a {
+background-size: cover;
+background-position: center center;
+border-radius: 3px;
+display: block;
+font-weight: 700;
+min-height: 18px;
+padding: 8px 12px 8px 12px;
+position: relative;
+text-decoration: none;
+}
+a:hover {
+color: #111;
+}
+a {
+color: #444;
+cursor: pointer;
+}
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+Inherited from li
+user agent stylesheetli {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+Inherited from ul.board-list.gutter.js-board-list.clearfix
+ol, ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
